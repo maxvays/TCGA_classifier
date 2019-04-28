@@ -1,6 +1,10 @@
 # TCGA_classifier
 Identifying epigenetic signature of breast cancer using TCGA dataset and TensorFlow DNNClassifier
 
+## Data
+
+[The Cancer Genome Atlas Data on Google Cloud](https://cloud.google.com/genomics/docs/public-datasets/tcga)
+
 ## shard_betas.py
 Reads hg38_training_examples_* files (the sharded hg38_training_examples table
 downloaded from the TCGA dataset in BigQuery) with the following columns:
